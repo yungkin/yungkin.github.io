@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Jekyll template
 Light and beautiful blog style template for jekyll
 
@@ -16,3 +17,7 @@ Find a demo [here](http://nikrich.github.io/jekyll-wing-template/#)
 3. Use ```jekyll serve``` to run the project
 4. Make your changes and test
 5. Submit a pull request
+=======
+## Welcome to My Website
+
+>>>>>>> 4513eebe74795578cea86e95efeb7b4fe35d8935
