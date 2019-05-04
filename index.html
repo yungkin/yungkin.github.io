@@ -1,28 +1,65 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>HTML5示例</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/default.css" />
+</head>
+<body>
+<header class="site-header">
+   <div class="wrapper">
 
-<div class="home">
- <div class="top card">
-    <a class="email" href="mailto:{{site.email}}">{{site.email}}</a>
-    <p class="description">{{ site.description }}</p>
-    <a href="about" class="btn">Read More</a>
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
   </div>
-  <div class="posts card">
-      <div class="card-content white-text">
-      <span class="card-title">Posts</span>
 
-      <ul class="post-list">
-        {% for post in site.posts %}
-          <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>            
-          </li>
-        {% endfor %}
-      </ul>
+  <div class="header-badge">
+    <a href="{{ site.baseurl }}/">
+        <img src="assets/headshot.jpg" />
+    </a>
+  </div>
+  <h1>I'm Yangting</h1>
+  <p>喝一杯清茶，约三五知己，聊聊天，叙叙旧...</p>
+</header>
+<nav>
+  <ul>
+    <li><a href="#">首页</a></li>
+    <li><a href="#">博客</a></li>
+    <li><a href="#">相册</a></li>
+    <li><a href="#">个人信息</a></li>
+  </ul>
+</nav>
+<div id="container">
+  <section>
+    <article>
+      <header>
+        <h1>HTML5</h1>
+      </header>
+      <p>HTML5</p>
 
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-      </div>
-   </div>
-
+      <footer>
+        <p>编辑于</p>
+      </footer>
+    </article>
+    <article>
+      <header>
+        <h1>CSS3</h1>
+      </header>
+      <p>CSS3</p>
+      <footer>
+        <p>编辑于</p>
+      </footer>
+    </article>
+  </section>
+  <aside>
+    <article>
+      <h1>简介</h1>
+      <p></p>
+    </article>
+  </aside>
+  <footer>
+    <p>版权所有 2019</p>
+  </footer>
 </div>
+</body>
+</html>
