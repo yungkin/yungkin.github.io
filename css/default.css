@@ -24,7 +24,7 @@ h3 {
 	color:#f47D31;
 }
 header {
-	background-color:#fff;	
+	background-color:#fff;
 	display:block;
 	color:#666;
 	text-align:center;
@@ -55,11 +55,11 @@ nav ul {
 nav ul li{
 	float:left;
 	margin-left:20px;
-	
+
 }
 nav ul li:hover{
 	background-color:#666;
-	
+
 }
 nav a:link, nav a:visited {
 	display:block;
@@ -69,7 +69,7 @@ nav a:link, nav a:visited {
 	color:#e4e4e4;
 }
 nav a:hover {
-	color:#FFFFFF;	
+	color:#FFFFFF;
 }
 nav h3 {
 	margin:15px;
@@ -125,7 +125,7 @@ aside p {
 	color:#666;
 	line-height:22px;
 }
-footer {	
+footer {
 	display:block;
 	clear:both;
 	border-top:1px solid #F47D31;

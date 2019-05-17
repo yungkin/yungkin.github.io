@@ -1,0 +1,147 @@
+body, html, h1, h2, h3, h4, h5, h6, ul, li{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:#f2f2f2;
+  font-weight: 300;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway";
+  font-weight: 300;
+  color: #333;
+}
+
+.clearfix{*zoom: 1;}
+.clearfix:after{content: "";display: block;clear: both;}
+
+/*头部导航区start*/
+
+#top-bar {
+  background-color:#fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+  overflow: visible;
+  font: normal 16px/24px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.top-bar-inner{
+  background: #111;
+  text-align:center;
+  line-height: 0;
+}
+
+
+#top-bar #nav {
+  display: inline-block;
+  position: relative;
+  border-right: 1px solid #222;
+  zoom: 1;
+  list-style:none;
+}
+
+#top-bar #nav>li{
+  display: block;
+  float: left;
+}
+
+#top-bar #nav a{color:#fff;text-decoration: none;padding: 18px 20px;font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif; border-left: 1px solid #222;}
+
+#top-bar #nav a:focus {
+  background: #111;
+  text-decoration: none;
+  border-left: 1px solid #111;
+}
+
+#top-bar #nav a:hover {
+  background: #222;
+  text-decoration: none;
+  border-left: 1px solid #111;
+}
+
+#top-bar #nav .active a {
+  background: #f47D31;
+  border-left: 1px solid #111;
+}
+
+#top-bar #nav .active a:hover {
+  background: #f47D31;
+}
+
+#top-bar i {
+  font-size: 25px;
+}
+
+/*头部导航区end*/
+
+/*头像样式 */
+#index {
+  background: url(../assets/5.jpg) no-repeat center top;
+
+  padding-top: 160px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#index .head span>img{width: 100px;height: 100px;}
+#index .container address>span{
+  font-size: 16px/24px; margin: 8px;
+  color: #fff;
+}
+
+/*主页*/
+#introduction {
+  background: #2c3e50;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+ h5{background: #555;color:#fff;font-size: 20px;margin:15px 0;}
+
+/*项目经验*/
+
+#project{
+padding-top: 20px;
+padding-bottom: 50px;
+}
+
+/*教育经历*/
+#resume {
+  background: ivory;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+/*联系我*/
+#footwrap {
+  background: #222222;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+#footwrap .panel-body p i{font-size: 30px;margin: 0 20px;}
+
+
