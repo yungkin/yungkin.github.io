@@ -144,4 +144,31 @@ padding-bottom: 50px;
 
 #footwrap .panel-body p i{font-size: 30px;margin: 0 20px;}
 
+/*留言板*/
+textarea{
+  font-size: 14px;
+  margin: 0;
+}
+
+.cmt-list{
+  margin-top: 4px;
+
+}
+
+.cmt-item{
+  line-height: 30px;
+
+}
+.cmt-item-title{
+  font-size: 14px;
+  height:35px;
+  background-color: #555;
+}
+.cmt-item-body{
+  font-size: 13px;
+  text-indent: 2em;
+}
+
+#cmt-content{color: black;font-size: 14px;}
+
 

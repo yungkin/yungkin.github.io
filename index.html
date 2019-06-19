@@ -46,7 +46,7 @@
             <div class="col-lg-12">
               <div class="head">
                 <span>
-                  <img src="assets/head.jpg" class="img-circle img-responsive img-rounded img-thumbnail">
+                  <img src="assets/headshot5.jpg" class="img-circle img-responsive img-thumbnail">
                 </span>
               <h1 class="text-center text-primary" style="margin-bottom: 6px;color: #fff">杨亭</h1>
               <address>
@@ -150,7 +150,7 @@
                     </div>
                 </div>
             </div>
-          </div>
+       </div>
       <!-- skill end-->
 
       <!-- project intro -->
@@ -292,35 +292,50 @@
                 </div>
 
              <div class="panel panel-primary">
-                <div class="panel panel-heading">邮件</div>
-                <div class="panel-body">
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <label for="email" class="col-sm-2 control-label">Email</label>
-                            <div class="col-sm-10">
-                                <input type="email" id="email" class="form-control" placeholder="Email">
-                            </div>
-                        </div>
+                <div class="panel panel-heading">留言板</div>
+                <div class="panel-body"  style="padding: 0;margin:0 15px ">
+                  <!-- 输入区域 -->
+                  <form class="form-inline">
+                    <div class="form-group " >
+                      <div class="">
+                         <label class="sr-only" for="email">Email address</label>
+                         <input type="email" class="form-control " id="email" placeholder="Email will not be saved">
+                      </div>
 
-                        <div class="form-group">
-                            <label for="name" class="col-sm-2 control-label">Name</label>
-                            <div class="col-sm-10">
-                                <input type="text" id="name" class="form-control" placeholder="Name">
-                            </div>
-                        </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="">
+                        <label class="sr-only" for="username">userName</label>
+                       <input type="text" class="form-control " id="username" placeholder="Name">
+                      </div>
 
-                        <div class="form-group">
-                            <div class="col-sm-10 col-sm-offset-2">
-                                <button type="submit" class="btn btn-primary pull-right">Send</button>
-                                <div class="clearfix"></div>
-                            </div>
+                    </div>
+                     <button type="submit" class="btn btn-primary pull-right " id="submit">Send</button>
+                    <textarea name="MsgBoard" id="inputMsgBoard" class="form-control" style="color: black;width: 100%"  rows="3" required="required" placeholder="欢迎留言（最多吐槽140字）" maxlength="140">
+
+                    </textarea>
+                 </form>
+                    <!-- 留言列表区域 -->
+
+                  <div class="cmt-container">
+                    <div class="cmt-list">
+                      <div class="cmt-item" >
+                        <div class="cmt-item-title" id="cmt-title">
+                           <i id="numId"></i>&nbsp;<i id="user_name"></i>&nbsp;<span id="add_time"></span>
                         </div>
-                    </form>
+                        <div class="cmt-item-body" id="cmt-content">
+
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <button type="danger" class="btn btn-info btn-block"  plain>加载更多</button>
+
                 </div>
             </div>
           </div>
-
-
       </div>
         </div>
         <!-- row -->
@@ -332,6 +347,7 @@
 
 <script type="text/javascript" src="lib/jQuery/jquery.min.js"></script>
 <script type="text/javascript" src="lib/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 
 </body>
 </html>
