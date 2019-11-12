@@ -169,6 +169,9 @@ textarea{
   text-indent: 2em;
 }
 
-#cmt-content{color: black;font-size: 14px;}
+#cmt-content{color: black;font-size: 14px;border-bottom: 1px solid #ccc;}
 
+.btn-loadMore{
+  margin: 100px 0;
+}
 
